@@ -19,10 +19,10 @@
           <span>组件</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="/button">Button</el-menu-item>
+          <el-menu-item index="/button">Button 按钮</el-menu-item>
         </el-menu-item-group>
         <el-menu-item-group>
-          <el-menu-item index="/input">Input</el-menu-item>
+          <el-menu-item index="/input">Input 输入框</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>

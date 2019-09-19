@@ -58,3 +58,27 @@
 <wsh-button type="danger" disabled>危险按钮</wsh-button>
 ```
 :::
+
+### 文字按钮
+没有边框和背景色的按钮。
+
+:::demo
+``` html
+
+<wsh-button type="text">文字按钮</wsh-button>
+<wsh-button type="text" disabled>文字按钮</wsh-button>
+```
+:::
+
+### 不同尺寸
+Button 组件提供除了默认值以外的三种尺寸，可以在不同场景下选择合适的按钮尺寸。
+
+:::demo 额外的尺寸：`medium`、`small`、`mini`，通过设置`size`属性来配置它们。
+``` html
+
+<wsh-button>默认按钮</wsh-button>
+<wsh-button size="medium">中等按钮</wsh-button>
+<wsh-button size="small">小型按钮</wsh-button>
+<wsh-button size="mini">超小按钮</wsh-button>
+```
+:::
