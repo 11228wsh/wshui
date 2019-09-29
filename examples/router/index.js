@@ -4,6 +4,7 @@ import Install from '../docs/install.md'
 import QuikeStart from '../docs/quickStart.md'
 import Button from '../docs/button.md'
 import Input from '../docs/input.md'
+import Checkbox from '../docs/checkbox.md'
 
 Vue.use(Router)
 
@@ -33,6 +34,11 @@ export default new Router({
       path: '/input',
       name: 'input',
       component: Input
+    },
+    {
+      path: '/checkbox',
+      name: 'checkbox',
+      component: Checkbox
     }
   ]
 })

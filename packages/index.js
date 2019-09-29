@@ -19,10 +19,12 @@
 
 import Button from './button/index.js'
 import Input from './input/index.js'
+import Checkbox from './checkbox/index.js'
 
 const components = [
   Button,
-  Input
+  Input,
+  Checkbox
 ]
 
 const install = function (Vue) {
@@ -37,10 +39,12 @@ if (typeof window !== 'undefined' && window.Vue) {
 export {
   install,
   Button,
-  Input
+  Input,
+  Checkbox
 }
 export default {
   install,
   Button,
-  Input
+  Input,
+  Checkbox
 }

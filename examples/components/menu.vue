@@ -20,9 +20,8 @@
         </template>
         <el-menu-item-group>
           <el-menu-item index="/button">Button 按钮</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group>
           <el-menu-item index="/input">Input 输入框</el-menu-item>
+          <el-menu-item index="/checkbox">Checkbox 多选框</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>
