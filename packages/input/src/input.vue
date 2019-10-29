@@ -45,5 +45,5 @@ export default {
 </script>
 
 <style>
-  @import '../../../lib/theme-chalk/input.css';
+  @import '../../../src/theme-chalk/input.css';
 </style>

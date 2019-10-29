@@ -50,5 +50,5 @@ export default {
 </script>
 
 <style>
-  @import '../../../lib/theme-chalk/button.css';
+  @import '../../../src/theme-chalk/button.css';
 </style>

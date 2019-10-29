@@ -55,7 +55,7 @@
   </label>
 </template>
 <script>
-  import Emitter from '../../../lib/mixins/emitter';
+  import Emitter from '../../../src/mixins/emitter';
 
   export default {
     name: 'WshCheckbox',
@@ -223,5 +223,5 @@
 </script>
 
 <style>
-  @import '../../../lib/theme-chalk/checkbox.css';
+  @import '../../../src/theme-chalk/checkbox.css';
 </style>
