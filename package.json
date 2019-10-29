@@ -1,6 +1,6 @@
 {
   "name": "wshui",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "wshui组件",
   "main": "lib/wshui.umd.min.js",
   "keyword": "wshui",
