@@ -19,12 +19,22 @@
 
 import Button from './button/index.js'
 import Input from './input/index.js'
+import Radio from './radio/index.js'
 import Checkbox from './checkbox/index.js'
+import Switch from './switch/index.js'
+import Tag from './tag/index.js'
+import Badge from './badge/index.js'
+import Message from './message/index.js'
 
 const components = [
   Button,
   Input,
-  Checkbox
+  Radio,
+  Checkbox,
+  Switch,
+  Tag,
+  Badge,
+  Message
 ]
 
 const install = function (Vue) {
@@ -40,11 +50,21 @@ export {
   install,
   Button,
   Input,
-  Checkbox
+  Radio,
+  Checkbox,
+  Switch,
+  Tag,
+  Badge,
+  Message
 }
 export default {
   install,
   Button,
   Input,
-  Checkbox
+  Radio,
+  Checkbox,
+  Switch,
+  Tag,
+  Badge,
+  Message
 }

@@ -6,15 +6,12 @@ import QuikeStart from '../docs/quickStart.md'
 
 import Button from '../docs/button.md'
 import Input from '../docs/input.md'
-import Layout from '../docs/layout.md'
 import Radio from '../docs/radio.md'
 import Checkbox from '../docs/checkbox.md'
 import Switch from '../docs/switch.md'
+import Tag from '../docs/tag.md'
 import Badge from '../docs/badge.md'
-import Loading from '../docs/loading.md'
 import Message from '../docs/message.md'
-import Tooltip from '../docs/tooltip.md'
-import Backtop from '../docs/backtop.md'
 
 Vue.use(Router)
 
@@ -25,14 +22,11 @@ export default new Router({
     { path: '/guide/quickStart', name: 'quikeStart', component: QuikeStart },
     { path: '/button', name: 'button', component: Button },
     { path: '/input', name: 'input', component: Input },
-    { path: '/layout', name: 'layout', component: Layout },
     { path: '/radio', name: 'radio', component: Radio },
     { path: '/checkbox', name: 'checkbox', component: Checkbox },
     { path: '/switch', name: 'switch', component: Switch },
+    { path: '/tag', name: 'tag', component: Tag },
     { path: '/badge', name: 'badge', component: Badge },
-    { path: '/loading', name: 'loading', component: Loading },
-    { path: '/message', name: 'message', component: Message },
-    { path: '/tooltip', name: 'tooltip', component: Tooltip },
-    { path: '/backtop', name: 'backtop', component: Backtop }
+    { path: '/message', name: 'message', component: Message }
   ]
 })

@@ -21,15 +21,12 @@
         <el-menu-item-group>
           <el-menu-item index="/button">Button 按钮</el-menu-item>
           <el-menu-item index="/input">Input 输入框</el-menu-item>
-          <el-menu-item index="/layout">Layout 布局</el-menu-item>
           <el-menu-item index="/radio">Radio 单选框</el-menu-item>
           <el-menu-item index="/checkbox">Checkbox 多选框</el-menu-item>
           <el-menu-item index="/switch">Switch 开关</el-menu-item>
+          <!-- <el-menu-item index="/tag">Tag 标签</el-menu-item> -->
           <el-menu-item index="/badge">Badge 标记</el-menu-item>
-          <el-menu-item index="/loading">Loading 加载</el-menu-item>
           <el-menu-item index="/message">Message 提示消息</el-menu-item>
-          <el-menu-item index="/tooltip">Tooltip 文字提示</el-menu-item>
-          <el-menu-item index="/backtop">Backtop 回到顶部</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>

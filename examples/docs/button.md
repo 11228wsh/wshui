@@ -20,26 +20,26 @@
 <div>
   <wsh-button>默认按钮</wsh-button>
   <wsh-button type="primary">主要按钮</wsh-button>
-  <wsh-button type="success">成功按钮</wsh-button>
-  <wsh-button type="info">信息按钮</wsh-button>
-  <wsh-button type="warning">警告按钮</wsh-button>
-  <wsh-button type="danger">危险按钮</wsh-button>
+  <wsh-button type="success">success</wsh-button>
+  <wsh-button type="info">info</wsh-button>
+  <wsh-button type="warning">warning</wsh-button>
+  <wsh-button type="danger">danger</wsh-button>
 </div>
 <div style="margin-top: 15px;">
   <wsh-button plain>朴素按钮</wsh-button>
   <wsh-button type="primary" plain>主要按钮</wsh-button>
-  <wsh-button type="success" plain>成功按钮</wsh-button>
-  <wsh-button type="info" plain>信息按钮</wsh-button>
-  <wsh-button type="warning" plain>警告按钮</wsh-button>
-  <wsh-button type="danger" plain>危险按钮</wsh-button>
+  <wsh-button type="success" plain>success</wsh-button>
+  <wsh-button type="info" plain>info</wsh-button>
+  <wsh-button type="warning" plain>warning</wsh-button>
+  <wsh-button type="danger" plain>danger</wsh-button>
 </div>
 <div style="margin-top: 15px;">
   <wsh-button round>圆角按钮</wsh-button>
   <wsh-button type="primary" round>主要按钮</wsh-button>
-  <wsh-button type="success" round>成功按钮</wsh-button>
-  <wsh-button type="info" round>信息按钮</wsh-button>
-  <wsh-button type="warning" round>警告按钮</wsh-button>
-  <wsh-button type="danger" round>危险按钮</wsh-button>
+  <wsh-button type="success" round>success</wsh-button>
+  <wsh-button type="info" round>info</wsh-button>
+  <wsh-button type="warning" round>warning</wsh-button>
+  <wsh-button type="danger" round>danger</wsh-button>
 </div>
 ```
 :::
@@ -52,10 +52,10 @@
 
 <wsh-button disabled>默认按钮</wsh-button>
 <wsh-button type="primary" disabled>主要按钮</wsh-button>
-<wsh-button type="success" disabled>成功按钮</wsh-button>
-<wsh-button type="info" disabled>信息按钮</wsh-button>
-<wsh-button type="warning" disabled>警告按钮</wsh-button>
-<wsh-button type="danger" disabled>危险按钮</wsh-button>
+<wsh-button type="success" disabled>success</wsh-button>
+<wsh-button type="info" disabled>info</wsh-button>
+<wsh-button type="warning" disabled>warning</wsh-button>
+<wsh-button type="danger" disabled>danger</wsh-button>
 ```
 :::
 
@@ -77,8 +77,8 @@ Button 组件提供除了默认值以外的三种尺寸，可以在不同场景�
 ``` html
 
 <wsh-button>默认按钮</wsh-button>
-<wsh-button size="medium">中等按钮</wsh-button>
-<wsh-button size="small">小型按钮</wsh-button>
-<wsh-button size="mini">超小按钮</wsh-button>
+<wsh-button size="medium">medium</wsh-button>
+<wsh-button size="small">small</wsh-button>
+<wsh-button size="mini">mini</wsh-button>
 ```
 :::
